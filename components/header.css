@@ -1,0 +1,7 @@
+.app-grid__header {
+  background: var(--color-light-grey);
+}
+
+.app-grid__title {
+  color: var(--color-light-blue);
+}

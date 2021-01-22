@@ -13,7 +13,6 @@
 
 .app-grid__header {
   grid-area: header;
-  background: hotpink;
 }
 
 .app-grid__main {
