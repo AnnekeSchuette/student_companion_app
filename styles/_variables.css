@@ -2,6 +2,14 @@
   /* color scheme */
 
   /* CSS HEX */
+  --color-light-grey: #f8f8f8;
+  --color-light-blue: #e0e4e8;
+  --color-dim-blue: #7589a2;
+  --color-dark-blue: #193251;
+  --color-light-salmon: #ffded7;
+  --color-medium-salmon: #ffbdaf;
+  --color-fat-salmon: #ff9c86;
+  --color-main-orange: #ff5a36;
 
   /* spaces */
   --space-xsmall: 5px;
