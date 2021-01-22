@@ -40,5 +40,5 @@
 
 .app-grid__footer {
   grid-area: footer;
-  background: #000;
+  background: #fff;
 }
