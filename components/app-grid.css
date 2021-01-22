@@ -1,0 +1,44 @@
+.app-grid {
+  display: grid;
+  grid-template-rows: 48px auto 48px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  height: 100vh;
+  max-width: 1050px;
+  margin: 0 auto;
+  background: var(--color-azure);
+}
+
+.app-grid__header {
+  grid-area: header;
+  background: hotpink;
+}
+
+.app-grid__main {
+  grid-area: main;
+  display: grid;
+  overflow-y: scroll;
+  grid-gap: var(--space-medium);
+  background: #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  .app-grid__main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* create some extra space in main - padding not working with overfloy:scroll */
+.app-grid__main::after {
+  content: '';
+  display: block;
+  height: var(--space-small);
+  width: 100%;
+}
+
+.app-grid__footer {
+  grid-area: footer;
+  background: #000;
+}
