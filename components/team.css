@@ -9,7 +9,7 @@
 }
 
 .team__member {
-  color: #7589a2;
+  color: var(--color-dim-blue);
   border-bottom: 1px solid var(--color-light-blue);
   padding: var(--space-medium);
   line-height: 1.1;
@@ -17,4 +17,29 @@
 
 .team__member:last-child {
   border-bottom: 0;
+}
+.team--plus .team__member {
+  position: relative;
+}
+.team--plus .team__member:not(:last-child)::after {
+  content: '\e904';
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  color: var(--color-dark-blue);
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 20px;
 }
