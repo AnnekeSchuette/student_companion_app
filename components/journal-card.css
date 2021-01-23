@@ -1,0 +1,15 @@
+.journal-card {
+  height: auto;
+  padding: 0 10px;
+  background: white;
+  box-shadow: var(--shadow-dim-blue);
+}
+
+.journal-card__headline {
+  color: var(--color-dark-blue);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.286;
+  padding: 0;
+  text-transform: uppercase;
+}

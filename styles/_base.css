@@ -22,4 +22,5 @@ main {
   grid-gap: var(--space-medium);
   height: 100vh;
   padding-top: 81px;
+  justify-content: center;
 }

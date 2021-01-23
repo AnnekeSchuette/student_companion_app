@@ -6,7 +6,7 @@
   right: 20px;
   bottom: 20px;
   left: 20px;
-  background: #fff;
+  background: white;
   border-radius: 10px;
   box-shadow: var(--shadow-dim-blue);
 }

@@ -10,9 +10,10 @@
   --color-medium-salmon: #ffbdaf;
   --color-fat-salmon: #ff9c86;
   --color-main-orange: #ff5a36;
-
-  --shadow-dim-blue: 0 2px 11px #19325120;
-  --shadow-orange: 0 4 10px #ff5a36;
+  --color-main-orange-op-40: rgb(255, 90, 54, 0.4);
+  --color-dim-blue-op-20: rgb(117, 137, 162, 0.2);
+  --shadow-dim-blue: 0 2px 11px var(--color-dim-blue-op-20);
+  --shadow-orange: 0 4px 10px var(--color-main-orange-op-40);
 
   /* spaces */
   --space-xsmall: 5px;

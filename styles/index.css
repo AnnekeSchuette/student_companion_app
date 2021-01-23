@@ -6,3 +6,6 @@
 @import '../components/app-grid.css';
 @import '../components/navigation.css';
 @import '../components/header.css';
+@import '../components/button.css';
+@import '../components/journal-card.css';
+@import '../components/journal-form.css';

@@ -1,0 +1,27 @@
+.button {
+  background-color: var(--color-main-orange);
+  padding: 10px 45px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: var(--shadow-orange);
+  height: 50px;
+  width: 100%;
+}
+
+.button--200 {
+  width: 200px;
+}
+
+.button--plain {
+  background-color: white;
+  box-shadow: none;
+  color: var(--color-);
+}
+
+.button__text {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
