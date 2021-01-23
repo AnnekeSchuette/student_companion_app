@@ -13,3 +13,46 @@
   padding: 0;
   text-transform: uppercase;
 }
+
+.journal-card_subline {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--color-dim-blue);
+  letter-spacing: 0;
+}
+
+.journal-card__rating {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.rating-star--inaktive {
+}
+
+.journal-card__comprehension {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+}
+
+.comprehension--inactive {
+}
+
+.jornal-card__motto {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-dark-blue);
+}
+
+.jornal-card__notes {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--color-dark-blue);
+}
