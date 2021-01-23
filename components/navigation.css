@@ -6,8 +6,6 @@
   right: 20px;
   bottom: 20px;
   left: 20px;
-  width: auto;
-  height: 44px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 11px #19325120;
@@ -19,6 +17,6 @@
   display: inline-block;
 }
 
-.navigation_icon--active {
+.navigation__icon--active {
   color: var(--color-dark-blue);
 }
