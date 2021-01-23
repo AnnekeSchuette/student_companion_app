@@ -13,8 +13,7 @@
 
   /* spaces */
   --space-xsmall: 5px;
-  --space-small: 15px;
-  --space-medium: 25px;
-  --space-large: 35px;
-  --space-xlarge: 50px;
+  --space-small: 10px;
+  --space-medium: 20px;
+  --space-large: 30px;
 }
