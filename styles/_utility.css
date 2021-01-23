@@ -29,3 +29,7 @@
 .m-30 {
   margin: var(--space-large);
 }
+
+.br-5 {
+  border-radius: 5px;
+}

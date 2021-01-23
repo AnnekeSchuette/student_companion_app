@@ -11,6 +11,9 @@
   --color-fat-salmon: #ff9c86;
   --color-main-orange: #ff5a36;
 
+  --shadow-dim-blue: 0 2px 11px #19325120;
+  --shadow-orange: 0 4 10px #ff5a36;
+
   /* spaces */
   --space-xsmall: 5px;
   --space-small: 10px;
