@@ -18,18 +18,3 @@
   height: 100vh;
   padding-top: 81px;
 }
-
-.app-grid__footer {
-  grid-area: footer;
-  position: fixed;
-  z-index: 1;
-  right: 20px;
-  bottom: 20px;
-  left: 20px;
-  width: auto;
-  height: 44px;
-  background: #fff;
-  /* utility clases? */
-  border-radius: 10px;
-  box-shadow: 0 2px 11px #19325120;
-}

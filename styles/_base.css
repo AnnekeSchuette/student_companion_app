@@ -11,4 +11,5 @@ body {
   height: 100%;
   font-size: 112.5%;
   font-family: 'Open Sans', sans-serif;
+  color: var(--color-dark-blue);
 }

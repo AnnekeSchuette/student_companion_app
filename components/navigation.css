@@ -1,0 +1,22 @@
+.navigation {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 11px #19325120;
+}
+
+.navigation__icon {
+  align-items: center;
+  color: var(--color-dim-blue);
+  display: inline-block;
+}
+
+.navigation__icon--active {
+  color: var(--color-dark-blue);
+}

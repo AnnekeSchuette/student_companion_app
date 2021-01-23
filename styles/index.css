@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
-@import url('../styles/_base.css');
-@import url('../styles/_utility.css');
-@import url('../styles/_variables.css');
-@import url('../components/app-grid.css');
-@import url('../components/header.css');
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap';
+@import '../styles/_base.css';
+@import '../styles/_utility.css';
+@import '../styles/_variables.css';
+@import '../vendor/icomoon/style.css';
+@import '../components/app-grid.css';
+@import '../components/navigation.css';
+@import '../components/header.css';
