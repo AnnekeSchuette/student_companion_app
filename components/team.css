@@ -1,0 +1,23 @@
+.team {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid var(--color-light-blue);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.team__member {
+  color: #7589a2;
+  border-bottom: 1px solid var(--color-light-blue);
+  padding: var(--space-medium);
+  line-height: 1.1;
+}
+
+.team__member:last-child {
+  border-bottom: 0;
+}

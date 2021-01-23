@@ -30,6 +30,41 @@
   margin: var(--space-large);
 }
 
+/* margin top */
+.mt-5 {
+  margin-top: var(--space-xsmall);
+}
+
+.mt-10 {
+  margin-top: var(--space-small);
+}
+
+.mt-20 {
+  margin-top: var(--space-medium);
+}
+
+.mt-30 {
+  margin-top: var(--space-large);
+}
+
+/* margin bottom */
+.mb-5 {
+  margin-bottom: var(--space-xsmall);
+}
+
+.mb-10 {
+  margin-bottom: var(--space-small);
+}
+
+.mb-20 {
+  margin-bottom: var(--space-medium);
+}
+
+.mb-30 {
+  margin-bottom: var(--space-large);
+}
+
+/* margin bottom */
 .br-5 {
   border-radius: 5px;
 }

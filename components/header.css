@@ -21,4 +21,5 @@
 .header__subtitle {
   color: var(--color-dim-blue);
   font-size: 12px;
+  display: block;
 }
