@@ -8,8 +8,18 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
   font-size: 112.5%;
   font-family: 'Open Sans', sans-serif;
   color: var(--color-dark-blue);
+  height: 100vh;
+  margin: 0 auto;
+  background: var(--color-azure);
+}
+
+main {
+  display: grid;
+  overflow-y: scroll;
+  grid-gap: var(--space-medium);
+  height: 100vh;
+  padding-top: 81px;
 }
