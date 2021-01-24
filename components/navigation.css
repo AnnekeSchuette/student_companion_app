@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   justify-content: space-around;
-  background: #fff;
+  background: white;
   border-radius: 10px;
   box-shadow: var(--shadow-dim-blue);
 }
@@ -10,6 +10,8 @@
   align-items: center;
   color: var(--color-dim-blue);
   display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .navigation__icon--active {

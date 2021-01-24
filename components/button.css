@@ -7,6 +7,12 @@
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button i {
+  margin-right: -16px;
 }
 
 .button--fat-salmon {

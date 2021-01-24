@@ -5,7 +5,9 @@
 @import '../vendor/icomoon/style.css';
 @import '../components/navigation.css';
 @import '../components/header.css';
+@import '../components/button.css';
+@import '../components/journal-card.css';
+@import '../components/journal-form.css';
 @import '../components/team.css';
 @import '../components/energy-graph.css';
-@import '../components/energy-rate.css';
 @import '../components/button.css';
