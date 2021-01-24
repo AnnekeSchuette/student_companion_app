@@ -44,7 +44,7 @@ main {
 main::after {
   content: '';
   display: block;
-  height: 150px;
+  height: 60px;
   width: 100%;
 }
 
