@@ -6,6 +6,7 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   font-size: 12px;
+  color: var(--color-dim-blue);
 }
 
 .bar-chart {
@@ -134,7 +135,7 @@
 .bar-chart__grid div {
   border-bottom: 1px solid var(--color-light-blue);
   content: '';
-  height: 1px;
+  height: 0px;
   width: 100%;
   display: block;
 }

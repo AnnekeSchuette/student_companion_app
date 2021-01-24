@@ -10,13 +10,10 @@
     <header class="header">
       <h1 class="header__title">Energy</h1>
     </header>
-
-
     <main class="content">
-<section> 
-    <h2 class="font-normal">Energy Level throughout the day</h2>
-
-    <div class="bar-chart">
+    <section class="energy-chart"> 
+      <h2 class="font-normal">Energy Level throughout the day</h2>
+      <div class="bar-chart">
         <div class="bar-chart__scale-col">
           <div class="bar-chart__scale-y">100</div>
           <div class="bar-chart__scale-y">75</div>
@@ -57,21 +54,23 @@
           <div></div>
         </div>
       </div>
-
       <div class="legend"> 
         <span class="legend__others br-5">Other Students</span>
         <span class="legend__self br-5">You</span>
       </div>
     </section>
-    <section>
+    <section class="energy-rate">
       <h2 class= "font-normal">Rate your current energy level:</h2>
+      <button class="button button--main-orange button--block br-5 mb-10" type="button">100%</button>
+      <button class="button button--fat-salmon button--block br-5 mb-10" type="button">75%</button>
+      <button class="button button--medium-salmon button--block br-5 mb-10" type="button">50%</button>
+      <button class="button button--light-salmon button--block br-5 mb-10" type="button">25%</button>
     </section>
     </main>
 
-
     <footer class="footer">
       <nav class="navigation p-10">
-        <a href="../" class="navigation__icon navigation__icon--active">
+        <a href="../" class="navigation__icon ">
           <i class="icon-dashboard"></i>
         </a>
         <a href="../code-buddies.html" class="navigation__icon">
@@ -80,7 +79,7 @@
         <a href="../teams.html" class="navigation__icon">
           <i class="icon-team"></i>
         </a>
-        <a href="../energy.html" class="navigation__icon">
+        <a href="../energy.html" class="navigation__icon navigation__icon--active">
           <i class="icon-energy"></i>
         </a>
         <a href="../journal.html" class="navigation__icon">

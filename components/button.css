@@ -1,0 +1,35 @@
+.button,
+.button--main-orange {
+  background: var(--color-main-orange);
+  color: white;
+  padding: 12px 50px 14px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.button--fat-salmon {
+  background: var(--color-fat-salmon);
+  color: white;
+}
+
+.button--medium-salmon {
+  background: var(--color-medium-salmon);
+  color: var(--color-main-orange);
+}
+
+.button--light-salmon {
+  background: var(--color-light-salmon);
+  color: var(--color-main-orange);
+}
+
+.button--transparent {
+  background: none;
+  color: var(--color-dark-blue);
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+}
