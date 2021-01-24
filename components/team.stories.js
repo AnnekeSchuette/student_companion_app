@@ -1,8 +1,9 @@
 import './team.css'
-import team from './team.html'
+import html from './team.html'
 
 export default {
   title: 'Team',
+  component: html,
 }
 
-export const base = () => team
+export const base = () => html

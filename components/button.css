@@ -1,27 +1,35 @@
-.button {
-  background-color: var(--color-main-orange);
-  padding: 10px 45px;
-  border-radius: 5px;
-  border: none;
-  box-shadow: var(--shadow-orange);
-  height: 50px;
-  width: 100%;
-}
-
-.button--200 {
-  width: 200px;
-}
-
-.button--plain {
-  background-color: white;
-  box-shadow: none;
-  color: var(--color-);
-}
-
-.button__text {
+.button,
+.button--main-orange {
+  background: var(--color-main-orange);
   color: white;
+  padding: 12px 50px 14px;
+  line-height: 1.5;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.5;
-  text-align: center;
+  letter-spacing: 1px;
+}
+
+.button--fat-salmon {
+  background: var(--color-fat-salmon);
+  color: white;
+}
+
+.button--medium-salmon {
+  background: var(--color-medium-salmon);
+  color: var(--color-main-orange);
+}
+
+.button--light-salmon {
+  background: var(--color-light-salmon);
+  color: var(--color-main-orange);
+}
+
+.button--transparent {
+  background: none;
+  color: var(--color-dark-blue);
+}
+
+.button--block {
+  display: block;
+  width: 100%;
 }
