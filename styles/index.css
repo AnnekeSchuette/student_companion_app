@@ -3,7 +3,9 @@
 @import '../styles/_utility.css';
 @import '../styles/_variables.css';
 @import '../vendor/icomoon/style.css';
-@import '../components/app-grid.css';
 @import '../components/navigation.css';
 @import '../components/header.css';
 @import '../components/team.css';
+@import '../components/energy-graph.css';
+@import '../components/energy-rate.css';
+@import '../components/button.css';
