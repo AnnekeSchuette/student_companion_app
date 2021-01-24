@@ -1,0 +1,162 @@
+.bar-chart,
+.bar-chart__scale-col,
+.bar-chart__bar-wrap,
+.bar-chart__scale-row {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-size: 12px;
+}
+
+.bar-chart {
+  height: 205px;
+  grid-template-columns: 35px 1fr;
+  grid-template-rows: 1fr 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar-chart__scale-col {
+  grid-area: 1 / 1 / 2 / 2;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: 1fr;
+  align-items: end;
+}
+
+.bar-chart__scale-y {
+  line-height: 0;
+  padding-bottom: 3px;
+}
+
+.bar-chart__scale-x {
+  line-height: 0;
+  padding-top: 15px;
+}
+
+.bar-chart__bar-wrap {
+  grid-area: 1 / 2 / 2 / 3;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  z-index: 1;
+}
+
+.bar-chart__scale-row {
+  grid-area: 2 / 2 / 3 / 3;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+
+.bar-chart__bar-wrap {
+  padding: 0;
+  margin: 0;
+}
+
+.bar-chart__bar {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar-chart__value {
+  width: 12px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bar-chart__value--self {
+  background: var(--color-main-orange);
+}
+
+.bar-chart__value--others {
+  background: var(--color-dark-blue);
+}
+
+.bar-chart__value--10 {
+  height: 10%;
+}
+
+.bar-chart__value--20 {
+  height: 20%;
+}
+
+.bar-chart__value--30 {
+  height: 30%;
+}
+
+.bar-chart__value--40 {
+  height: 40%;
+}
+
+.bar-chart__value--50 {
+  height: 50%;
+}
+
+.bar-chart__value--60 {
+  height: 60%;
+}
+
+.bar-chart__value--70 {
+  height: 70%;
+}
+
+.bar-chart__value--80 {
+  height: 80%;
+}
+
+.bar-chart__value--90 {
+  height: 90%;
+}
+
+.bar-chart__value--100 {
+  height: 100%;
+}
+
+.bar-chart__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr) 35px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 35px;
+  bottom: 0;
+  align-items: end;
+}
+
+.bar-chart__grid div {
+  border-bottom: 1px solid var(--color-light-blue);
+  content: '';
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+
+.legend {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.legend__others {
+  background: var(--color-dark-blue);
+  color: white;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 2px 9px;
+}
+
+.legend__self {
+  background: var(--color-light-salmon);
+  color: var(--color-main-orange);
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 2px 9px;
+}
