@@ -1,4 +1,4 @@
-import './enery-graph.stories.css'
+import './energy-graph.css'
 import html from './energy-graph.html'
 
 export default {
