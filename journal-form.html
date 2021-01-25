@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Student Companion App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Journal</h1>
+    </header>
+    <main class="content">
+      <h2 class="journal-form__headline">Today, 12.07.2020</h2>
+      <form action="#">
+        <h3 class="form__label">Rating:</h3>
+        <fieldset class="form__rating mb-30">
+          <label>
+            <input type="radio" name="stars" value="1" />
+            <span class="icon-star-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="stars" value="2" />
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="stars" value="3" />
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="stars" value="4" />
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="stars" value="5" />
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+            <span class="icon-star-o"></span>
+          </label>
+        </fieldset>
+
+        <h3 class="form__label">Comprehension:</h3>
+        <fieldset class="form__comprehension">
+          <label>
+            <input type="radio" name="rectangles" value="1" />
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="2" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="3" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="4" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="5" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="6" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="7" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="8" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="9" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+          <label>
+            <input type="radio" name="rectangles" value="10" />
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+            <span class="icon-rectangle-o"></span>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <label class="form__label mb-10 mt-20" for="motto">Motto:</label>
+          <textarea class="form__textarea p-20 br-5" rows="1"></textarea>
+          <label class="form__label mb-10 mt-20" for="notes">Notes:</label>
+          <textarea class="form__textarea p-20 br-5 mb-30" rows="3"></textarea>
+        </fieldset>
+
+        <div class="form__buttons">
+          <button class="button button--transparent br-5" type="button">
+            Cancel
+          </button>
+          <button class="button br-5" type="button">
+            Save <i class="icon-check"></i>
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <nav class="navigation p-5">
+        <a href="../" class="navigation__icon">
+          <i class="icon-dashboard"></i>
+        </a>
+        <a href="../code-buddies.html" class="navigation__icon">
+          <i class="icon-buddy"></i>
+        </a>
+        <a href="../teams.html" class="navigation__icon">
+          <i class="icon-team"></i>
+        </a>
+        <a href="../energy.html" class="navigation__icon">
+          <i class="icon-energy"></i>
+        </a>
+        <a
+          href="../journal.html"
+          class="navigation__icon navigation__icon--active"
+        >
+          <i class="icon-journal"></i>
+        </a>
+      </nav>
+    </footer>
+    <div class="bg-gradient"></div>
+  </body>
+</html>

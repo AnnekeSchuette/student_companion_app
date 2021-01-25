@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Student Companion App</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Energy</h1>
+    </header>
+    <main class="content">
+    <section class="energy-chart"> 
+      <h2 class="font-normal">Energy Level throughout the day</h2>
+      <div class="bar-chart">
+        <div class="bar-chart__scale-col">
+          <div class="bar-chart__scale-y">100</div>
+          <div class="bar-chart__scale-y">75</div>
+          <div class="bar-chart__scale-y">50</div>
+          <div class="bar-chart__scale-y">25</div>
+          <div class="bar-chart__scale-y">0</div>
+        </div>
+        <ul class="bar-chart__bar-wrap">
+          <li class="bar-chart__bar">
+            <div class="bar-chart__value bar-chart__value--90 bar-chart__value--self"></div>
+            <div class="bar-chart__value bar-chart__value--80 bar-chart__value--others"></div>
+          </li>
+          <li class="bar-chart__bar bar-chart__bar--25">
+            <div class="bar-chart__value bar-chart__value--70 bar-chart__value--self"></div>
+            <div class="bar-chart__value bar-chart__value--90 bar-chart__value--others"></div></li>
+          <li class="bar-chart__bar bar-chart__bar--50">
+            <div class="bar-chart__value bar-chart__value--50 bar-chart__value--self"></div>
+            <div class="bar-chart__value bar-chart__value--30 bar-chart__value--others"></div></li>
+          <li class="bar-chart__bar bar-chart__bar--100">
+            <div class="bar-chart__value bar-chart__value--70 bar-chart__value--self"></div>
+            <div class="bar-chart__value bar-chart__value--80 bar-chart__value--others"></div></l>
+          <li class="bar-chart__bar bar-chart__bar--10">
+            <div class="bar-chart__value bar-chart__value--90 bar-chart__value--self"></div>
+            <div class="bar-chart__value bar-chart__value--70 bar-chart__value--others"></div></li>
+        </ul>
+        <div class="bar-chart__scale-row">
+          <div class="bar-chart__scale-x">10:00</div>
+          <div class="bar-chart__scale-x">15:30</div>
+          <div class="bar-chart__scale-x">16:15</div>
+          <div class="bar-chart__scale-x">18:25</div>
+          <div class="bar-chart__scale-x">19:00</div>   
+        </div>
+        <div class="bar-chart__grid">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="legend"> 
+        <span class="legend__others br-5">Other Students</span>
+        <span class="legend__self br-5">You</span>
+      </div>
+    </section>
+    <section class="energy-rate">
+      <h2 class= "font-normal">Rate your current energy level:</h2>
+      <button class="button button--main-orange button--block br-5 mb-10" type="button">100%</button>
+      <button class="button button--fat-salmon button--block br-5 mb-10" type="button">75%</button>
+      <button class="button button--medium-salmon button--block br-5 mb-10" type="button">50%</button>
+      <button class="button button--light-salmon button--block br-5" type="button">25%</button>
+    </section>
+    </main>
+
+    <footer class="footer">
+      <nav class="navigation p-5">
+        <a href="../" class="navigation__icon ">
+          <i class="icon-dashboard"></i>
+        </a>
+        <a href="../code-buddies.html" class="navigation__icon">
+          <i class="icon-buddy"></i>
+        </a>
+        <a href="../teams.html" class="navigation__icon">
+          <i class="icon-team"></i>
+        </a>
+        <a href="../energy.html" class="navigation__icon navigation__icon--active">
+          <i class="icon-energy"></i>
+        </a>
+        <a href="../journal.html" class="navigation__icon">
+          <i class="icon-journal"></i>
+        </a>
+      </nav>
+    </footer>
+    <div class="bg-gradient"></div>
+  </body>
+</html>

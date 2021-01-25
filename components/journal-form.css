@@ -1,0 +1,131 @@
+.form__rating,
+.form__comprehension {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  font-size: 35px;
+}
+
+.form__rating label,
+.form__comprehension label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: space-around; */
+}
+
+.form__rating label:last-child,
+.form__comprehension label:last-child {
+  position: static;
+}
+
+.form__rating label:nth-child(1),
+.form__comprehension label:nth-child(1) {
+  z-index: 5;
+}
+
+.form__rating label:nth-child(2),
+.form__comprehension label:nth-child(2) {
+  z-index: 4;
+}
+
+.form__rating label:nth-child(3),
+.form__comprehension label:nth-child(3) {
+  z-index: 3;
+}
+
+.form__rating label:nth-child(4),
+.form__comprehension label:nth-child(4) {
+  z-index: 2;
+}
+
+.form__rating label:nth-child(5),
+.form__comprehension label:nth-child(5) {
+  z-index: 1;
+}
+
+.form__rating label input,
+.form__comprehension label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.form__rating label .icon-star-o,
+.form__comprehension label .icon-rectangle-o {
+  display: inline-flex;
+  color: transparent;
+  margin: 0 10px;
+  font-size: 35px;
+  width: 35px;
+  float: left;
+}
+
+.form__comprehension label .icon-rectangle-o {
+  font-size: 26px;
+  width: 26px;
+  margin: 0 2px;
+}
+
+.form__rating label:last-child .icon-star-o,
+.form__comprehension label:last-child .icon-rectangle-o {
+  color: var(--color-dim-blue);
+}
+
+.form__rating:not(:hover) label input:checked ~ .icon-star-o,
+.form__rating:hover label:hover input ~ .icon-star-o,
+.form__comprehension:not(:hover) label input:checked ~ .icon-rectangle-o,
+.form__comprehension:hover label:hover input ~ .icon-rectangle-o {
+  color: var(--color-dark-blue);
+}
+.form__rating:not(:hover) label input:checked ~ .icon-star-o:before,
+.form__rating:hover label:hover input ~ .icon-star-o:before {
+  content: '\e906';
+}
+
+.form__comprehension:not(:hover) label input:checked ~ .icon-rectangle-o:before,
+.form__comprehension:hover label:hover input ~ .icon-rectangle-o:before {
+  content: '\e905';
+}
+
+.form__rating label input:focus:not(:checked) ~ .icon-star-o:last-child,
+.form__comprehension
+  label
+  input:focus:not(:checked)
+  ~ .icon-rectangle-o:last-child {
+  color: var(--color-dim-blue);
+  text-shadow: 0 0 5px #09f;
+}
+
+.form__label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.form__textarea {
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid;
+  border-color: var(--color-light-blue);
+  outline: 0;
+  width: 100%;
+  -moz-appearance: none;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: var(--space-small);
+}
+.form__buttons button {
+  padding: 12px var(--space-small) 14px;
+  flex-grow: 2;
+}

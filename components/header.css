@@ -1,0 +1,26 @@
+.header {
+  background: url(../images/wave.svg) no-repeat bottom center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 17px 0 20px;
+  text-align: center;
+  background-size: cover;
+}
+
+.header__title {
+  color: var(--color-dark-blue);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.header__subtitle {
+  color: var(--color-dim-blue);
+  font-size: 12px;
+  display: block;
+}
